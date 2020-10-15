@@ -4,11 +4,6 @@ import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-/**
- * 加密工具
- * @author 小懒虫
- * @date 2019/4/25
- */
 public class EncryptUtil {
 
     /** 加密算法 */

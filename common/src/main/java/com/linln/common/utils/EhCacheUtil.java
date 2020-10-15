@@ -3,11 +3,6 @@ package com.linln.common.utils;
 import net.sf.ehcache.Cache;
 import net.sf.ehcache.CacheManager;
 
-/**
- * EhCache缓存操作工具
- * @author 小懒虫
- * @date 2018/11/7
- */
 public class EhCacheUtil {
 
     /**

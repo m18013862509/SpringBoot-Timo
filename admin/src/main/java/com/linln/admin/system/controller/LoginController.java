@@ -34,10 +34,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * @author 小懒虫
- * @date 2018/8/14
- */
 @Controller
 public class LoginController implements ErrorController {
 
@@ -84,7 +80,7 @@ public class LoginController implements ErrorController {
 
         // 2.封装用户数据
         UsernamePasswordToken token = new UsernamePasswordToken(username, password);
-
+        System.out.println("---------->封装用户数据："+token);
         // 3.执行登录，进入自定义Realm类中
         try {
             // 判断是否自动登录
