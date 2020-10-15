@@ -7,10 +7,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
-/**
- * @author 小懒虫
- * @date 2018/8/14
- */
+
 @SpringBootApplication
 @EnableJpaAuditing // 使用jpa自动赋值
 @EnableCaching // 开启缓存
