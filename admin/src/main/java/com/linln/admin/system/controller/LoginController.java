@@ -61,6 +61,7 @@ public class LoginController implements ErrorController {
     @ResponseBody
     @ActionLog(key = UserAction.USER_LOGIN, action = UserAction.class)
     public ResultVo login(String username, String password, String captcha, String rememberMe) {
+        System.out.println("用户名："+username+"密码："+password+"验证码："+captcha+"rememberMe:-->"+rememberMe);
         // 判断账号密码是否为空
         if (StringUtils.isEmpty(username) || StringUtils.isEmpty(password)) {
             throw new ResultException(ResultEnum.USER_NAME_PWD_NULL);

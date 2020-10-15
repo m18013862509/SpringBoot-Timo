@@ -1,10 +1,8 @@
-# Timo v2.0.3
-
-[![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE) [![加入QQ群①](https://img.shields.io/badge/QQ%E7%BE%A4%E2%91%A0-941209502(%E5%B7%B2%E6%BB%A1)-red)](https://jq.qq.com/?_wv=1027&k=5RCnDCO) [![加入QQ群②](https://img.shields.io/badge/QQ%E7%BE%A4②-545633945-brightgreen.svg)](https://jq.qq.com/?_wv=1027&k=5AIEf1E) [![star](https://gitee.com/aun/Timo/badge/star.svg?theme=dark)](https://gitee.com/aun/Timo/stargazers) [![fork](https://gitee.com/aun/Timo/badge/fork.svg?theme=dark)](https://gitee.com/aun/Timo/members)
+# 管理后台 v0.0.1
 
 #### 项目介绍
 
-TIMO后台管理系统，基于SpringBoot2.0 + Spring Data Jpa + Thymeleaf + Shiro 开发的后台管理系统，采用分模块的方式便于开发和维护，支持前后台模块分别部署，目前支持的功能有：权限管理、部门管理、字典管理、日志记录、文件上传、代码生成等，为快速开发后台系统而生的脚手架！
+后台管理系统，基于SpringBoot2.0 + Spring Data Jpa + Thymeleaf + Shiro 开发的后台管理系统，采用分模块的方式便于开发和维护，支持前后台模块分别部署，目前支持的功能有：权限管理、部门管理、字典管理、日志记录、文件上传、代码生成等，为快速开发后台系统而生的脚手架！
 
 #### 技术选型
 
@@ -58,28 +56,11 @@ TIMO后台管理系统，基于SpringBoot2.0 + Spring Data Jpa + Thymeleaf + Shi
 3. SQL文件：sdoc/timo.sql（经常忘记同步！）
 
 #### 更新记录
+
 - 2019-11-06更新 重命名菜单类型为：目录、菜单、按钮
-- 2019-10-30更新 重写Shiro“记住我”系列化数据，减少cookie体积
-- 2019-10-25更新 加入获取用户角色列表方法，修复获取部门数据时延迟加载超时问题
-- 2019-10-17更新 1.优化登录js加载不及时问题 2.解决layui弹出窗口最大化问题
-- 2019-08-28更新 加入配置项，可直接通过yml文件配置Shiro和XSS防护忽略规则！
-- 2019-08-11更新 根据【阿里巴巴Java开发手册】对代码进行优化处理
-- 2019-06-14更新 修复接口无法继承多个父接口的问题
-- 2019-04-28更新 加入JWT TOKEN鉴权机制，实现多端的权限验证！
-- 2019-04-07更新 发布v2.0版本，带来全新的项目结构！
-- 2019-02-11更新 修复字典值过长格式显示问题，加入离线技术文档1.0
-- 2019-01-17更新 重构字典模块，将mo:dictKey改成mo:dict
-- 2018-12-18更新 加入导入导出功能
-- 2018-12-13更新 修复代码生成路径出现空格的问题
-- 2018-12-10更新 1.加入xss防护 2.加入swagger数据接口文档
-- 2018-12-09更新 1.加入QuerySpec动态查询实例 2.加入排序选择功能 3.完善用户部门查询
-- 2018-12-07更新 修复文件上传多次的问题，修改上传实体类名称
-- 2018-12-05更新 1.支持三级菜单 2.更新管理员权限机制 3.修复若干问题
-- 2018-12-03更新 1.加入部门管理功能 2.更新开源协议 3.修复若干问题
-- 2018-12-01更新 发布v1.0版本！
 
 #### 演示地址
-演示地址： [http://www.linln.cn](http://www.linln.cn)
+演示地址： [http://www.linln.cn](www.baidu.com)
 
 #### 预览图
 
